@@ -20,5 +20,5 @@ yarn start
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nuSapb/jwt-koa-auth-api/blob/master/LICENSE) file for details
 
