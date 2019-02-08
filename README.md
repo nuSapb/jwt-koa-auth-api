@@ -1,15 +1,14 @@
 # jwt-koa-auth-api
-# Project Title
 
 Using JSON WEB TOKEN with Koa
 
 ### Getting Started
 
 '''
-#Install dependencies
+Install dependencies
 yarn install
 
-# Server on localhost:3000
+Server on localhost:3000
 yarn start
 '''
 
