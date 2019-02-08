@@ -1,0 +1,23 @@
+{
+  "name": "koa-auth-api",
+  "version": "1.0.0",
+  "description": "Koa auth api template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js app.js"
+  },
+  "repository": "git+https://github.com/nuSapb/koa-auth-api.git",
+  "author": "Anu S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuSapb/koa-auth-api/issues"
+  },
+  "homepage": "https://github.com/nuSapb/koa-auth-api#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.7.0",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0"
+  }
+}
