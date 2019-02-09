@@ -43,7 +43,7 @@ router.post('/api/login', async (ctx, next) => {
         username: 'anu',
         email: 'anu@gmail.com'
     }
-    await jwt.sign({user}, 'secretkey', (err, token)=> {
+    await jwt.sign({user}, 'secretkey', { expiresIn: '30s' }, (err, token)=> {
         ctx.body = {
             token
         }
