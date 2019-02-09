@@ -52,9 +52,6 @@ router.post('/api/login', async (ctx, next) => {
 
 })
 
-// FROMAT OF TOKEN
-// Authorization: Bearer <access_token>
-
 /**
  * Verify Token
  * FROMAT OF TOKEN
